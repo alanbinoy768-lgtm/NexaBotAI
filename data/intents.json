@@ -1,0 +1,336 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi", "hello", "hey", "hey there", "good morning", "good evening",
+        "hello there", "hi there", "greetings", "how are you", "good day",
+        "good afternoon", "what's up", "hi NexaBot", "hello chatbot",
+        "hello NexaBot", "hey NexaBot", "how are you doing", "how is it going",
+        "nice to meet you", "hiya", "hey friend", "good to see you",
+        "hello everyone", "hi chatbot", "morning"
+      ],
+      "responses": [
+        "Hello! I am NexaBot AI. How can I help you today?",
+        "Hi there! I am ready to help with questions, learning, and conversation.",
+        "Greetings! What would you like to know?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye", "goodbye", "see you later", "farewell", "take care", "good night",
+        "i have to go", "see you soon", "talk to you later", "I am leaving now",
+        "catch you later", "have a good day", "until next time", "bye for now",
+        "I need to leave", "see you", "goodbye NexaBot", "thanks bye"
+      ],
+      "responses": [
+        "Goodbye! Have a nice day and feel free to ask me again.",
+        "Take care! I will be here whenever you want to chat.",
+        "See you later!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks", "thank you", "thanks a lot", "much appreciated", "thank you very much",
+        "thanks buddy", "appreciate it", "thank you so much", "many thanks",
+        "that was helpful", "I appreciate your help", "thanks for helping me",
+        "cheers", "thank you NexaBot", "thanks a bunch", "great help"
+      ],
+      "responses": [
+        "You are welcome! I am happy to help.",
+        "My pleasure! Let me know if you need anything else.",
+        "Glad I could help."
+      ]
+    },
+    {
+      "tag": "identity",
+      "patterns": [
+        "who are you", "what are you", "what is your name", "are you a chatbot",
+        "who created you", "what do you do", "introduce yourself",
+        "tell me who you are", "what should I call you", "are you human",
+        "are you an AI", "tell me about yourself", "who am I chatting with",
+        "what is NexaBot", "what kind of bot are you", "identify yourself"
+      ],
+      "responses": [
+        "I am NexaBot AI, a local chatbot trained to understand common intents and answer questions using a small NLP model.",
+        "I am NexaBot AI, a beginner-friendly AI assistant designed for local learning and conversation.",
+        "I am a local chatbot built for general conversation, learning, and question answering."
+      ]
+    },
+    {
+      "tag": "chatbot_capabilities",
+      "patterns": [
+        "what can you do", "what are your capabilities", "how can you help me",
+        "what do you know", "what can you answer", "what are your functions",
+        "how can you assist me", "what topics can you help with",
+        "what features do you have", "what are you able to do",
+        "can you answer questions", "what kind of help can you provide",
+        "what can I ask you", "show me what you can do"
+      ],
+      "responses": [
+        "I can answer basic questions, explain programming topics, help with science and education, and chat naturally in simple conversation.",
+        "I can assist with general knowledge, technology, programming, and simple follow-up questions using local NLP.",
+        "I help with everyday questions, educational topics, and basic local knowledge retrieval."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "help", "i need help", "can you help me", "assist me", "need assistance",
+        "please help", "i am stuck", "could you help me", "I need some assistance",
+        "can you guide me", "help me understand this", "I need support",
+        "please assist", "can you explain this to me", "I have a problem"
+      ],
+      "responses": [
+        "Of course. Tell me what you need help with, and I will do my best to guide you.",
+        "I can help with questions, explanations, and simple problem-solving. Please share the topic.",
+        "Sure! What do you need help with?"
+      ]
+    },
+    {
+      "tag": "general_knowledge",
+      "patterns": [
+        "what is the sun", "what is a planet", "why do we need oxygen", "what is gravity",
+        "what is a computer", "what is a battery", "what is the earth", "what is water",
+        "tell me a general fact", "why is the sky blue", "what causes day and night",
+        "how does rain form", "what is the moon", "why do objects fall",
+        "what makes up the universe", "explain the solar system"
+      ],
+      "responses": [
+        "I can explain general knowledge topics using the local knowledge base and simple NLP reasoning.",
+        "I can provide short answers about science, technology, education, and general information.",
+        "Let me share a useful explanation from my local knowledge base."
+      ]
+    },
+    {
+      "tag": "science",
+      "patterns": [
+        "what is photosynthesis", "explain gravity", "what is an atom", "what is force",
+        "what is evolution", "what is ecology", "how does the ecosystem work", "what is biology",
+        "explain photosynthesis", "how do plants make food", "what is the human cell",
+        "explain the water cycle", "what is energy in science", "what is chemistry",
+        "what is the difference between mass and weight", "how does the heart work",
+        "what is a chemical reaction", "tell me a science fact"
+      ],
+      "responses": [
+        "Photosynthesis is the process by which plants use sunlight, water, and carbon dioxide to make food and oxygen.",
+        "Gravity is the force that attracts objects with mass toward one another, keeping planets in orbit around the Sun.",
+        "An atom is the basic unit of matter, made of protons, neutrons, and electrons."
+      ]
+    },
+    {
+      "tag": "technology",
+      "patterns": [
+        "what is technology", "what is a computer", "what is software", "what is hardware",
+        "what is the internet", "what is machine learning", "what is AI", "explain data science",
+        "explain artificial intelligence", "what is artificial intelligence",
+        "how does machine learning work", "what is a smartphone", "what is cloud computing",
+        "what is cybersecurity", "what is a computer network", "how does the internet work",
+        "what is an operating system", "what is a database", "explain robotics"
+      ],
+      "responses": [
+        "Technology is the use of scientific knowledge for practical purposes, often involving tools, systems, and processes.",
+        "A computer is a machine that processes information based on instructions given to it.",
+        "Machine learning is a method where computers learn patterns from data instead of being explicitly programmed for every rule."
+      ]
+    },
+    {
+      "tag": "education",
+      "patterns": [
+        "what is education", "why is education important", "how do i learn better",
+        "what is learning", "what is a teacher", "what is a curriculum",
+        "how can I study effectively", "give me study tips", "how do I prepare for an exam",
+        "what is online learning", "why should we learn", "how can I improve my memory",
+        "what is critical thinking", "how do I stay focused while studying"
+      ],
+      "responses": [
+        "Education is the process of gaining knowledge, skills, values, and understanding through learning.",
+        "Education is important because it helps people solve problems, build careers, and make informed decisions.",
+        "Better learning often comes from active practice, revision, and understanding concepts deeply."
+      ]
+    },
+    {
+      "tag": "programming",
+      "patterns": [
+        "what is programming", "what is python", "how to learn python", "what is a function",
+        "what is a variable", "what is a loop", "what is an algorithm", "what is debugging",
+        "explain Python", "tell me about the Python language", "how do I write a program",
+        "what is a list in Python", "what is a dictionary in Python",
+        "what is object oriented programming", "how do functions work in Python",
+        "what does debugging mean", "how can I start coding", "what is source code"
+      ],
+      "responses": [
+        "Programming is the process of writing instructions that a computer can execute.",
+        "Python is a popular programming language known for simplicity, readability, and many practical uses.",
+        "A function is a reusable block of code that performs a specific task."
+      ]
+    },
+    {
+      "tag": "mathematics",
+      "patterns": [
+        "what is algebra", "what is a prime number", "what is pi", "what is geometry",
+        "what is a fraction", "what is calculus", "what is probability", "solve algebra",
+        "explain prime numbers", "how do fractions work", "what is the area of a circle",
+        "what is a percentage", "how do I calculate an average", "what is a square root",
+        "explain basic statistics", "what is an equation", "help me with math"
+      ],
+      "responses": [
+        "Algebra is a branch of mathematics involving symbols, variables, and equations.",
+        "A prime number is a number greater than 1 that has no divisors other than 1 and itself.",
+        "Pi is a mathematical constant approximately equal to 3.14159, used in circles and curves."
+      ]
+    },
+    {
+      "tag": "geography",
+      "patterns": [
+        "what is geography", "what is the capital of france", "what is longitude", "what is latitude",
+        "what is a continent", "where is india", "what is the equator",
+        "what are the seven continents", "where is the equator", "what is a map",
+        "what is the capital of Japan", "where is the Pacific Ocean",
+        "what is a mountain range", "explain time zones", "what is a peninsula"
+      ],
+      "responses": [
+        "Geography is the study of Earth, its features, climates, and people.",
+        "The capital of France is Paris.",
+        "Latitude and longitude are coordinate systems used to describe locations on Earth."
+      ]
+    },
+    {
+      "tag": "history",
+      "patterns": [
+        "what is history", "who discovered electricity", "what happened in world war two",
+        "who was alexander the great", "what is ancient history", "what is civilization",
+        "tell me about the industrial revolution", "who was the first president of the United States",
+        "what was the Renaissance", "why do we study history", "what is an ancient civilization",
+        "when did World War Two end", "who was Mahatma Gandhi", "what is archaeology"
+      ],
+      "responses": [
+        "History is the study of past events and how they shaped the world.",
+        "Ancient history includes the early civilizations and societies that existed before the modern era.",
+        "World history helps us understand how cultures, governments, and technologies developed over time."
+      ]
+    },
+    {
+      "tag": "weather_information",
+      "patterns": [
+        "what is the weather", "is it sunny", "will it rain today", "what is the temperature",
+        "forecast", "weather forecast", "how is the weather",
+        "will it be hot today", "is it going to rain", "tell me today's forecast",
+        "what is the climate like", "is it cold outside", "do you know the weather today",
+        "will it snow tomorrow"
+      ],
+      "responses": [
+        "I can provide general weather guidance, but I do not have live weather data on this local system.",
+        "I do not have real-time weather access, but I can help with general weather-related questions.",
+        "For exact weather, check a local forecast service or weather app."
+      ]
+    },
+    {
+      "tag": "time_and_date",
+      "patterns": [
+        "what time is it", "what date is it", "what day is it", "current date",
+        "what is today", "tell me the time", "what is the current time",
+        "what day of the week is it", "what is today's date", "tell me today's date",
+        "what month is it", "what year is it", "can you check the time"
+      ],
+      "responses": [
+        "I can explain time-related questions, but exact current time depends on your system clock.",
+        "I can help with time and date concepts, but I do not have a live clock built into this local chatbot.",
+        "The exact current time is shown by your device settings and local system time."
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "tell me a joke", "make me laugh", "joke please", "funny joke", "say something funny",
+        "tell a joke", "can you tell a joke", "I want to hear something funny",
+        "make me smile", "share a joke with me", "do you know any jokes",
+        "give me a funny one"
+      ],
+      "responses": [
+        "Why do programmers prefer dark mode? Because light attracts bugs!",
+        "I told my computer I needed a break, and now it sends me to sleep mode.",
+        "Why did the scarecrow become a programmer? Because he was outstanding in his field!"
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "motivate me", "i feel low", "i am discouraged", "give me motivation", "encourage me",
+        "i need inspiration", "I need some encouragement", "help me stay motivated",
+        "say something inspiring", "I feel like giving up on my studies",
+        "give me a positive message", "I need confidence"
+      ],
+      "responses": [
+        "Keep going. Small steps every day lead to big results. You are stronger than you think.",
+        "Your effort matters more than your current pace. Progress is still progress.",
+        "Success is built step by step. Stay consistent and trust the process."
+      ]
+    },
+    {
+      "tag": "personal_assistance",
+      "patterns": [
+        "i need personal help", "help me plan my day", "can you help with study planning",
+        "assist me with personal tasks", "i need guidance", "plan my schedule",
+        "help me organize my tasks", "make a simple daily plan", "help me manage my time",
+        "how should I prioritize my work", "help me create a study schedule",
+        "I have too many tasks to do"
+      ],
+      "responses": [
+        "I can help you organize basic tasks, set a simple study plan, and suggest small goals for the day.",
+        "A good plan starts with one or two small goals, a clear schedule, and a simple review step.",
+        "Let us break the task into manageable steps and focus on progress."
+      ]
+    },
+    {
+      "tag": "conversation",
+      "patterns": [
+        "tell me about yourself", "how is your day", "what are you doing", "do you like coding",
+        "can we talk", "are you there",
+        "what do you think about learning", "I just want to chat",
+        "how has your day been", "are you enjoying this conversation",
+        "let us have a conversation", "tell me something interesting",
+        "what is going on", "do you enjoy helping people"
+      ],
+      "responses": [
+        "I am here and ready to chat with you. What would you like to talk about?",
+        "I am doing well and ready to help. Tell me what is on your mind.",
+        "I enjoy helping with learning and conversation. What topic would you like to explore?"
+      ]
+    },
+    {
+      "tag": "clarification",
+      "patterns": [
+        "unclear", "i did not understand", "can you explain more", "what do you mean",
+        "please clarify", "not clear", "repeat that", "could you say that another way",
+        "I do not understand your answer", "can you be more specific",
+        "please explain that again", "I am confused by this", "what does that mean"
+      ],
+      "responses": [
+        "I may need more detail. Please rephrase the question or give me a little more context.",
+        "Could you clarify what you mean by that?",
+        "I want to help, but I need a clearer statement to respond correctly."
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [
+        "random question", "something weird", "asdfghjkl", "what is the meaning of life", "what is quantum computing",
+        "tell me the exact winning lottery numbers", "what is inside my locked drawer",
+        "predict next week's stock prices", "what did I eat yesterday",
+        "give me live news right now", "what is my neighbor thinking",
+        "explain the secret language of clouds", "what will happen to me tomorrow",
+        "what is the exact current lottery result", "tell me today's lottery numbers",
+        "give me the latest live stock price", "what is the weather on Mars next year",
+        "how do I reverse time on Mars"
+      ],
+      "responses": [
+        "I am not fully certain what you mean. Please rephrase the question or ask about a topic I understand.",
+        "This is outside my current local knowledge scope. Please ask a clearer or more common question.",
+        "I may need a more specific question to answer accurately."
+      ]
+    }
+  ]
+}

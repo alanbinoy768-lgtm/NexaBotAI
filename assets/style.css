@@ -1,0 +1,10 @@
+body {
+    background: #0a1220;
+    color: #eef4ff;
+}
+
+.chat-message {
+    border-radius: 16px;
+    padding: 10px 12px;
+    margin-bottom: 8px;
+}

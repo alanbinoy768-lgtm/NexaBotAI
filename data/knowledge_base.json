@@ -1,0 +1,124 @@
+{
+  "entries": [
+    {
+      "category": "Science",
+      "question": "What is photosynthesis?",
+      "answer": "Photosynthesis is the process by which green plants use sunlight, carbon dioxide, and water to produce glucose and oxygen."
+    },
+    {
+      "category": "Science",
+      "question": "What is gravity?",
+      "answer": "Gravity is the force that attracts objects with mass toward one another, which is why objects fall to Earth and planets orbit the Sun."
+    },
+    {
+      "category": "Science",
+      "question": "What is an atom?",
+      "answer": "An atom is the basic unit of matter, consisting of a nucleus made of protons and neutrons, surrounded by electrons."
+    },
+    {
+      "category": "Technology",
+      "question": "What is a computer?",
+      "answer": "A computer is an electronic machine that receives input, processes information, and produces output according to instructions."
+    },
+    {
+      "category": "Technology",
+      "question": "What is artificial intelligence?",
+      "answer": "Artificial intelligence refers to systems that can perform tasks normally requiring human intelligence, such as recognition, reasoning, and decision-making."
+    },
+    {
+      "category": "Technology",
+      "question": "What is machine learning?",
+      "answer": "Machine learning is a branch of AI where systems learn patterns from data and make predictions or decisions based on that learning."
+    },
+    {
+      "category": "Programming",
+      "question": "What is Python?",
+      "answer": "Python is a high-level programming language known for its readability, simplicity, and wide range of applications in web development, automation, AI, and data science."
+    },
+    {
+      "category": "Programming",
+      "question": "Who created Python?",
+      "answer": "Python was created by Guido van Rossum and first released in 1991."
+    },
+    {
+      "category": "Programming",
+      "question": "What is a variable?",
+      "answer": "A variable is a named storage location used to hold data in a program so it can be referenced and changed later."
+    },
+    {
+      "category": "Programming",
+      "question": "What is a function?",
+      "answer": "A function is a reusable block of code designed to perform a specific task and return a result when called."
+    },
+    {
+      "category": "Programming",
+      "question": "What is a loop?",
+      "answer": "A loop repeats a block of code multiple times until a condition is met or a specified number of iterations is reached."
+    },
+    {
+      "category": "Education",
+      "question": "Why is education important?",
+      "answer": "Education is important because it develops knowledge, skills, critical thinking, and opportunities for personal and professional growth."
+    },
+    {
+      "category": "Mathematics",
+      "question": "What is algebra?",
+      "answer": "Algebra is a branch of mathematics that uses symbols and letters to represent numbers and relationships in equations."
+    },
+    {
+      "category": "Mathematics",
+      "question": "What is pi?",
+      "answer": "Pi is a mathematical constant approximately equal to 3.14159, used in calculations involving circles, arcs, and waves."
+    },
+    {
+      "category": "Mathematics",
+      "question": "What is a prime number?",
+      "answer": "A prime number is a whole number greater than 1 that has exactly two positive divisors: 1 and itself."
+    },
+    {
+      "category": "Geography",
+      "question": "What is the capital of France?",
+      "answer": "The capital of France is Paris."
+    },
+    {
+      "category": "Geography",
+      "question": "What is latitude?",
+      "answer": "Latitude is the distance north or south of the equator, measured in degrees."
+    },
+    {
+      "category": "Geography",
+      "question": "What is longitude?",
+      "answer": "Longitude is the distance east or west of the prime meridian, measured in degrees."
+    },
+    {
+      "category": "History",
+      "question": "What is history?",
+      "answer": "History is the study of past events, people, civilizations, and changes that shaped the world we live in today."
+    },
+    {
+      "category": "History",
+      "question": "Who discovered electricity?",
+      "answer": "Electricity was studied by many scientists, but Benjamin Franklin is widely associated with early experiments on electricity."
+    },
+    {
+      "category": "General",
+      "question": "What is the Earth?",
+      "answer": "Earth is the third planet from the Sun and the only known planet that supports life."
+    },
+    {
+      "category": "General",
+      "question": "Why do we need water?",
+      "answer": "Water is essential for life because it supports biological processes, temperature regulation, and transportation in living organisms."
+    },
+    {
+      "category": "General",
+      "question": "What is the internet?",
+      "answer": "The internet is a global network of connected computers that allows people to share information and services across the world."
+    },
+    {
+      "category": "General",
+      "question": "What is a battery?",
+      "answer": "A battery stores chemical energy and converts it into electrical energy to power devices."
+    }
+  ]
+}
